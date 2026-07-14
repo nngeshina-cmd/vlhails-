@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="ru" class="is-loading">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0B0B0B">
+    <meta name="color-scheme" content="dark">
+
+    <title>VL.NAILS — маникюр и наращивание ногтей в Краснодаре</title>
+    <meta name="description" content="VL.NAILS — аккуратный маникюр, наращивание и авторские дизайны в Краснодаре. Стерильные инструменты, качественные материалы и индивидуальный подход.">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="VL.NAILS">
+    <meta property="og:title" content="VL.NAILS — маникюр, который хочется рассматривать">
+    <meta property="og:description" content="Аккуратная работа, качественные материалы и индивидуальный подход к каждой клиентке.">
+    <meta property="og:image" content="images/og-cover.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="images/hero.webp" as="image" type="image/webp">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NailSalon",
+      "name": "VL.NAILS",
+      "description": "Маникюр, наращивание ногтей и авторские дизайны в Краснодаре.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Краснодар",
+        "streetAddress": "ул. Полины Осипенко, 99",
+        "addressCountry": "RU"
+      },
+      "sameAs": [
+        "https://t.me/valerrikim",
+        "https://t.me/vlnailsr",
+        "https://vk.com/va.leriyoss"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <!-- Экран загрузки. Изображение логотипа можно заменить в images/logo.webp. -->
+    <div class="site-loader" id="siteLoader" aria-hidden="true">
+        <div class="site-loader__logo">
+            <img src="images/logo.webp" width="1020" height="435" alt="">
+            <span class="site-loader__shine"></span>
+        </div>
+        <p>NAIL ART STUDIO</p>
+    </div>
+    <noscript><style>.site-loader{display:none!important}html.is-loading body{overflow:auto}</style></noscript>
+
+    <header class="site-header" id="siteHeader">
+        <div class="container site-header__inner">
+            <a class="brand" href="#home" aria-label="VL.NAILS — на главную">
+                <span>VL.NAILS</span>
+                <small>NAIL ART STUDIO</small>
+            </a>
+
+            <nav class="desktop-nav" aria-label="Основная навигация">
+                <a href="#home">Главная</a>
+                <a href="#price">Прайс</a>
+                <a href="#gallery">Галерея</a>
+                <a href="#benefits">Преимущества</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+
+            <a class="button button--small button--outline header-book" href="https://t.me/valerrikim" target="_blank" rel="noopener noreferrer">Записаться</a>
+
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Открыть меню" aria-controls="mobileMenu" aria-expanded="false">
+                <span></span><span></span>
+            </button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+            <nav aria-label="Мобильная навигация">
+                <a href="#home">Главная</a>
+                <a href="#price">Прайс</a>
+                <a href="#gallery">Галерея</a>
+                <a href="#benefits">Преимущества</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+            <a class="button button--primary" href="https://t.me/valerrikim" target="_blank" rel="noopener noreferrer">Записаться в Telegram</a>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <img class="hero__image" src="images/hero.webp" alt="Чёрно-белый маникюр с серебряным декором от VL.NAILS" width="1280" height="800" fetchpriority="high" decoding="async">
+            <div class="hero__veil" aria-hidden="true"></div>
+            <div class="container hero__content">
+                <p class="hero__brand reveal">VL.NAILS</p>
+                <h1 id="hero-title" class="reveal">Маникюр, который<br>хочется рассматривать</h1>
+                <p class="hero__lead reveal">Аккуратная работа, качественные материалы и индивидуальный подход к каждой клиентке.</p>
+                <div class="hero__actions reveal">
+                    <a class="button button--primary" href="https://t.me/valerrikim" target="_blank" rel="noopener noreferrer">Записаться</a>
+                    <a class="button button--outline" href="#gallery">Посмотреть работы</a>
+                </div>
+                <div class="hero__trust reveal" aria-label="Преимущества студии">
+                    <span>Стерильно</span>
+                    <span>Качественные материалы</span>
+                    <span>Индивидуальный дизайн</span>
+                </div>
+            </div>
+            <a class="scroll-cue" href="#price" aria-label="Прокрутить к прайсу"><span></span></a>
+        </section>
+
+        <section class="section price" id="price" aria-labelledby="price-title">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">УСЛУГИ И СТОИМОСТЬ</p>
+                    <h2 id="price-title">Прозрачный прайс</h2>
+                    <p>Выберите комфортную длину. Дизайн уже входит в стоимость.</p>
+                </div>
+
+                <!-- ЦЕНЫ: изменяйте значения непосредственно в карточках ниже. -->
+                <div class="price-grid">
+                    <article class="price-card reveal">
+                        <div class="price-card__top">
+                            <span>01</span>
+                            <h3>Наращивание</h3>
+                        </div>
+                        <div class="price-list">
+                            <div><span>Длина 0–3</span><strong>1 300 ₽</strong></div>
+                            <div><span>Длина 3–5</span><strong>1 500 ₽</strong></div>
+                            <div><span>Длина 5–7</span><strong>1 700 ₽</strong></div>
+                        </div>
+                    </article>
+
+                    <article class="price-card reveal">
+                        <div class="price-card__top">
+                            <span>02</span>
+                            <h3>Коррекция</h3>
+                        </div>
+                        <div class="price-list">
+                            <div><span>Длина 0–3</span><strong>1 300 ₽</strong></div>
+                            <div><span>Длина 3–5</span><strong>1 400 ₽</strong></div>
+                            <div><span>Длина 5–7</span><strong>1 500 ₽</strong></div>
+                        </div>
+                    </article>
+
+                    <article class="price-card price-card--wide reveal">
+                        <div class="price-card__top">
+                            <span>03</span>
+                            <h3>Дополнительные услуги</h3>
+                        </div>
+                        <div class="price-list price-list--two-columns">
+                            <div><span>Ремонт одного ногтя</span><strong>50–100 ₽</strong></div>
+                            <div><span>Маникюр без покрытия</span><strong>500 ₽</strong></div>
+                            <div><span>Донаращивание одного ногтя</span><strong>50 ₽</strong></div>
+                            <div><span>Снятие без последующего покрытия</span><strong>300 ₽</strong></div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="price-note reveal">
+                    <span class="price-note__spark" aria-hidden="true">✦</span>
+                    <p><strong>Дизайн входит в стоимость.</strong> Финальная цена зависит только от выбранной длины и дополнительных услуг.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
+            <div class="container">
+                <div class="section-heading section-heading--split reveal">
+                    <div>
+                        <p class="eyebrow">ПОРТФОЛИО</p>
+                        <h2 id="gallery-title">Работы VL.NAILS</h2>
+                    </div>
+                    <p>Нажмите на фотографию, чтобы рассмотреть детали. На телефоне листайте свайпом.</p>
+                </div>
+
+                <!-- ФОТОГРАФИИ: заменяйте файлы в images/gallery, сохраняя имена или обновляя пути ниже. -->
+                <div class="gallery-grid">
+                    <button class="gallery__item reveal" type="button" data-index="0" data-full="images/gallery/work-01.webp" aria-label="Открыть фотографию 1 из 8">
+                        <img src="images/gallery/thumb-01.webp" width="570" height="760" loading="lazy" decoding="async" alt="Нюдовый маникюр с чёрным френчем — работа VL.NAILS">
+                        <span class="gallery__overlay" aria-hidden="true"><span>Открыть</span></span>
+                    </button>
+                    <button class="gallery__item reveal" type="button" data-index="1" data-full="images/gallery/work-02.webp" aria-label="Открыть фотографию 2 из 8">
+                        <img src="images/gallery/thumb-02.webp" width="570" height="760" loading="lazy" decoding="async" alt="Чёрный френч на миндальной форме — работа VL.NAILS">
+                        <span class="gallery__overlay" aria-hidden="true"><span>Открыть</span></span>
+                    </button>
+                    <button class="gallery__item reveal" type="button" data-index="2" data-full="images/gallery/work-03.webp" aria-label="Открыть фотографию 3 из 8">
+                        <img src="images/gallery/thumb-03.webp" width="570" height="760" loading="lazy" decoding="async" alt="Белый и бордовый дизайн на длинных ногтях — работа VL.NAILS">
+                        <span class="gallery__overlay" aria-hidden="true"><span>Открыть</span></span>
+                    </button>
+                    <button class="gallery__item reveal" type="button" data-index="3" data-full="images/gallery/work-04.webp" aria-label="Открыть фотографию 4 из 8">
+                        <img src="images/gallery/thumb-04.webp" width="760" height="570" loading="lazy" decoding="async" alt="Чёрно-белый маникюр с серебряным декором — работа VL.NAILS">
+                        <span class="gallery__overlay" aria-hidden="true"><span>Открыть</span></span>
+                    </button>
+                    <button class="gallery__item reveal" type="button" data-index="4" data-full="images/gallery/work-05.webp" aria-label="Открыть фотографию 5 из 8">
+                        <img src="images/gallery/thumb-05.webp" width="760" height="570" loading="lazy" decoding="async" alt="Чёрно-розовый объёмный nail art — работа VL.NAILS">
+                        <span class="gallery__overlay" aria-hidden="true"><span>Открыть</span></span>
+                    </button>
+                    <button class="gallery__item reveal" type="button" data-index="5" data-full="images/gallery/work-06.webp" aria-label="Открыть фотографию 6 из 8">
+                        <img src="images/gallery/thumb-06.webp" width="760" height="570" loading="lazy" decoding="async" alt="Молочно-бордовый графичный маникюр — работа VL.NAILS">
+                        <span class="gallery__overlay" aria-hidden="true"><span>Открыть</span></span>
+                    </button>
+                    <button class="gallery__item reveal" type="button" data-index="6" data-full="images/gallery/work-07.webp" aria-label="Открыть фотографию 7 из 8">
+                        <img src="images/gallery/thumb-07.webp" width="570" height="760" loading="lazy" decoding="async" alt="Бордовый острый маникюр с серебряной росписью — работа VL.NAILS">
+                        <span class="gallery__overlay" aria-hidden="true"><span>Открыть</span></span>
+                    </button>
+                    <button class="gallery__item reveal" type="button" data-index="7" data-full="images/gallery/work-08.webp" aria-label="Открыть фотографию 8 из 8">
+                        <img src="images/gallery/thumb-08.webp" width="570" height="760" loading="lazy" decoding="async" alt="Бордовый маникюр с белым бантом — работа VL.NAILS">
+                        <span class="gallery__overlay" aria-hidden="true"><span>Открыть</span></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section benefits" id="benefits" aria-labelledby="benefits-title">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">ПОЧЕМУ VL.NAILS</p>
+                    <h2 id="benefits-title">Красота без компромиссов</h2>
+                    <p>Каждая деталь процесса продумана для вашего комфорта, безопасности и безупречного результата.</p>
+                </div>
+
+                <div class="benefits-grid">
+                    <article class="benefit-card reveal"><img src="icons/price.svg" alt="" width="28" height="28"><h3>Оптимальные цены</h3><p>Честная стоимость без скрытых доплат за дизайн.</p></article>
+                    <article class="benefit-card reveal"><img src="icons/sterile.svg" alt="" width="28" height="28"><h3>Стерильные инструменты</h3><p>Соблюдение всех этапов обработки и хранения.</p></article>
+                    <article class="benefit-card reveal"><img src="icons/disposable.svg" alt="" width="28" height="28"><h3>Одноразовые материалы</h3><p>Индивидуальные расходники для каждой клиентки.</p></article>
+                    <article class="benefit-card reveal"><img src="icons/quality.svg" alt="" width="28" height="28"><h3>Качественные материалы</h3><p>Проверенные продукты для стойкого и безопасного покрытия.</p></article>
+                    <article class="benefit-card reveal"><img src="icons/palette.svg" alt="" width="28" height="28"><h3>Большая палитра</h3><p>От сдержанного нюда до сложного авторского nail art.</p></article>
+                    <article class="benefit-card reveal"><img src="icons/precision.svg" alt="" width="28" height="28"><h3>Аккуратная работа</h3><p>Чистая архитектура, ровное покрытие и внимание к деталям.</p></article>
+                    <article class="benefit-card benefit-card--accent reveal"><img src="icons/approach.svg" alt="" width="28" height="28"><h3>Индивидуальный подход</h3><p>Форма и дизайн подбираются с учётом ваших пожеланий и образа жизни.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+            <div class="container contacts__layout">
+                <div class="contacts__intro reveal">
+                    <p class="eyebrow">ЗАПИСЬ И КОНТАКТЫ</p>
+                    <h2 id="contacts-title">Ваши идеальные ногти начинаются здесь</h2>
+                    <p>Напишите в Telegram, чтобы выбрать удобное время, длину и обсудить будущий дизайн.</p>
+                </div>
+
+                <!-- КОНТАКТЫ И ССЫЛКИ: редактируйте данные в этом блоке. -->
+                <div class="contacts__panel reveal">
+                    <div class="contact-row">
+                        <img src="icons/location.svg" alt="" width="26" height="26">
+                        <div><span>Адрес</span><strong>Краснодар<br>ул. Полины Осипенко, 99</strong></div>
+                    </div>
+                    <div class="contact-row">
+                        <img src="icons/clock.svg" alt="" width="26" height="26">
+                        <div><span>Режим работы</span><strong>Только по предварительной записи</strong></div>
+                    </div>
+
+                    <div class="contact-actions">
+                        <a class="social-button social-button--primary" href="https://t.me/valerrikim" target="_blank" rel="noopener noreferrer">
+                            <img src="icons/telegram.svg" alt="" width="22" height="22"><span><small>Telegram</small>@valerrikim</span><b>↗</b>
+                        </a>
+                        <a class="social-button" href="https://t.me/vlnailsr" target="_blank" rel="noopener noreferrer">
+                            <img src="icons/telegram.svg" alt="" width="22" height="22"><span><small>Telegram-канал</small>VL.NAILS</span><b>↗</b>
+                        </a>
+                        <a class="social-button" href="https://vk.com/va.leriyoss" target="_blank" rel="noopener noreferrer">
+                            <img src="icons/vk.svg" alt="" width="22" height="22"><span><small>VK</small>va.leriyoss</span><b>↗</b>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <div class="brand brand--footer"><span>VL.NAILS</span><small>NAIL ART STUDIO</small></div>
+            <p>© <span id="currentYear">2026</span> VL.NAILS. Все права защищены.</p>
+            <a href="#home">Наверх ↑</a>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Наверх">
+        <span>↑</span>
+    </button>
+
+    <!-- Полноэкранный просмотр галереи -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр работы" aria-hidden="true">
+        <button class="lightbox__close" id="lightboxClose" type="button" aria-label="Закрыть">×</button>
+        <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" type="button" aria-label="Предыдущее фото">← <span>Предыдущее фото</span></button>
+        <figure class="lightbox__figure">
+            <div class="lightbox__image-wrap">
+                <img id="lightboxImage" src="" alt="">
+            </div>
+            <figcaption><span id="lightboxCounter">1 / 8</span><span id="lightboxCaption"></span></figcaption>
+        </figure>
+        <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" type="button" aria-label="Следующее фото"><span>Следующее фото</span> →</button>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
